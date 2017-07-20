@@ -1,0 +1,23 @@
+{
+  "name": "theInterestFrontEnd",
+  "version": "1.0.0",
+  "description": "这是前端吧，这是前端吧，这是前端吧，^_^",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForInterest/theInterestFrontEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForInterest/theInterestFrontEnd/issues"
+  },
+  "homepage": "https://github.com/ForInterest/theInterestFrontEnd#readme",
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  }
+}
