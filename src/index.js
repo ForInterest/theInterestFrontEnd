@@ -1,9 +1,9 @@
+
 function component(){
-    var element = document.createElement('div');
+	let element = document.createElement('div');
+	element.innerHTML = 'hello webpack 22dd';
 
-    element.innerHTML = 'hello webpack 22dd';
-
-    return element;
+	return element;
 }
 
 document.body.appendChild(component());
