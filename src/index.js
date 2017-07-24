@@ -1,7 +1,7 @@
 
 function component(){
 	let element = document.createElement('div');
-	element.innerHTML = 'hello webpack 22dd';
+	element.innerHTML = 'hello webpack dd';
 
 	return element;
 }
