@@ -1,9 +1,10 @@
+import './index.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
+// import Hello from '../component/hello.jsx';
 
-function component(){
-	let element = document.createElement('div');
-	element.innerHTML = 'hello webpack dd';
 
-	return element;
-}
-
-document.body.appendChild(component());
+ReactDOM.render(
+	<h1>Hello, worlsdfd!</h1>,
+	document.getElementById('app')
+);
