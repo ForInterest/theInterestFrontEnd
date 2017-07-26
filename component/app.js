@@ -10,10 +10,11 @@ class App extends React.Component {
 	}
 
 	render(){
+		const { actions, text} = this.props;
 		return (
 			<div> 
-				<Hello />
-				<Change />
+				<Hello actions = { actions } text = {text} />
+				<Change actions = {actions} />
 			</div>
 		);
 	}
